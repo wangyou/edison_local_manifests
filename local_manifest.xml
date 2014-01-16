@@ -16,6 +16,6 @@
 
 <!-- EXTRAS -->
 <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-10.2" />
-<project name="stargo/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+<project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
 
 </manifest>
