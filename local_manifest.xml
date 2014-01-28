@@ -2,30 +2,52 @@
 <manifest>
 
 <!-- REMOVALS -->
-<remove-project name="SlimRoms/hardware_ril" />
-<remove-project name="SlimRoms/hardware_ti_omap4xxx" />
-<remove-project name="SlimRoms/hardware_ti_wpan" />
-<remove-project name="SlimRoms/hardware_ti_wlan" />
-<remove-project name="SlimRoms/android_prebuilt" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+<remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+<remove-project name="platform/prebuilts/eclipse" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
+<remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+<remove-project name="platform/tools/adt/eclipse" />
+<remove-project name="android_external_eclipse-basebuilder" />
+<remove-project name="android_external_eclipse-windowbuilder" />
+<remove-project name="android_hardware_akm" />
+<remove-project name="android_hardware_broadcom_libbt" />
+<remove-project name="android_hardware_broadcom_wlan" />
+<remove-project name="android_hardware_qcom_audio" />
+<remove-project name="android_hardware_qcom_audio-caf" />
+<remove-project name="android_hardware_qcom_bt" />
+<remove-project name="android_hardware_qcom_camera" />
+<remove-project name="android_hardware_qcom_display" />
+<remove-project name="android_hardware_qcom_display-caf" />
+<remove-project name="android_hardware_qcom_gps" />
+<remove-project name="android_hardware_qcom_keymaster" />
+<remove-project name="android_hardware_qcom_media" />
+<remove-project name="android_hardware_qcom_media-caf" />
+<remove-project name="android_hardware_qcom_msm8960" />
+<remove-project name="android_hardware_qcom_msm8x74" />
+<remove-project name="android_hardware_qcom_power" />
+<remove-project name="android_hardware_qcom_sensors" />
+<remove-project name="android_hardware_qcom_wlan" />
+<remove-project name="android_system_qcom" />
+<remove-project name="androidarmv6/android_hardware_qcom_display-legacy" />
+<remove-project name="androidarmv6/android_hardware_qcom_media_legacy" />
 
 <!-- DEVICE -->
-<project name="Atrix2-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="slimkat" />
-<project name="Atrix2-Dev-Team/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="aosp4.4" />
+<project name="Atrix2-Dev-Team/android_device_motorola_edison" path="device/motorola/edison" remote="github" revision="pac-4.4" />
+<project name="Atrix2-Dev-Team/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="github" revision="pac-4.4" />
 
 <!-- VENDOR -->
 <project name="Atrix2-Dev-Team/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
 
 <!-- KERNEL -->
-<project name="CyanogenMod/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-11.0" />
-
-<!-- REPLACEMENTS -->
-<project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-10.2" />
-<project name="CyanogenMod/android_hardware_ti_omap4xxx" path="hardware/ti/omap4xxx" remote="github" revision="cm-11.0" />
-<project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0" />
-<project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
-<project name="CyanogenMod/android_prebuilt" path="prebuilt" remote="github" revision="cm-11.0" />
-
-<!-- EXTRAS -->
-<project name="CyanogenMod/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-11.0" />
+<project name="Atrix2-Dev-Team/android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="github" revision="cm-11.0" />
 
 </manifest>
